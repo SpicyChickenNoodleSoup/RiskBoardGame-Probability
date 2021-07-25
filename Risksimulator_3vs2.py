@@ -74,39 +74,3 @@ print("Prob of Attacker winning 2 army: ", str(prob_att_win2))
 
 if prob_att_win0 + prob_att_win1 + prob_att_win2 == 1:
     print("Simulation successful")
-
-
-# def dice_roll_simulator(dicecount):
-#     result = []
-#     for i in range(dicecount):
-#         result.append(random.randint(1, 6))
-#     result.sort(reverse=True)
-#     return result
-
-# big=100000
-# count_attackerwins1=0
-# count_attackerwins2=0
-#
-# for i in range(big):
-#     Attacker_result = dice_roll_simulator(3)
-#     Defender_result = dice_roll_simulator(2)
-#     wins1 = False
-#     wins2 = False
-#     if Attacker_result[0] > Defender_result[0]:
-#         wins1 = True
-#     del Attacker_result[0]
-#     del Defender_result[0]
-#     if Attacker_result[0] > Defender_result[0]:
-#         wins1 = False
-#         wins2 = True
-#     if wins1:
-#         count_attackerwins1 = count_attackerwins1 + 1
-#     if wins2:
-#         count_attackerwins2 = count_attackerwins2 + 1
-#
-#
-# prob_attackerwins1 = count_attackerwins1 / big
-# print(prob_attackerwins1)
-#
-# prob_attackerwins2 = count_attackerwins2 / big
-# print(prob_attackerwins2)
