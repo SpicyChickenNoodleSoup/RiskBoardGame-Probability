@@ -1,0 +1,7 @@
+This repository includes 4 python programs from a junior college statistics research project I did with Nanyang Technological University of Singapore to calculate probabilities of Attacker or Defender winning/losing in the Risk board game.
+
+The rules for the game can be found here: https://www.ultraboardgames.com/risk/game-rules.php
+
+The Game Simulator is a simple game similar to Risk I made. The procedure will defer slightly due to my lack of understanding of the Risk board game when it was created.
+3 VS 2 calculates the probabilities of Attacker or Defender winning/losing in the Risk Board Game, following the rules of the game where Attacker can roll maximum 3 dice and defender 2 dice. The default is 3 dice VS 2 dice in this code.
+Any VS Any extrapolates the algorithm to take in unlimited input. I updated a newer version that plots a graph of the probabilities.
